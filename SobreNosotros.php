@@ -39,7 +39,6 @@
 
 </head>
 <body class="host_version"> 
-<!-- Modal -->	
 
 	<!-- Modal -->
 	<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -52,8 +51,8 @@
 			<div class="modal-body customer-box">
 				<!-- Nav tabs -->
 				<ul class="nav nav-tabs">
-					<li><a class="active" href="#Login" data-toggle="tab">INICIA SESION</a></li>
-					<li><a href="#Registration" data-toggle="tab">REGISTRATE</a></li>
+					<li><a class="active" href="#Login" data-toggle="tab">Login</a></li>
+					<li><a href="#Registration" data-toggle="tab">Registration</a></li>
 				</ul>
 				<!-- Tab panes -->
 				<div class="tab-content">
@@ -74,7 +73,7 @@
 									<button type="submit" class="btn btn-light btn-radius btn-brd grd1">
 										Submit
 									</button>
-									<a class="for-pwd" href="javascript:;">Recupera tu contraseña</a>
+									<a class="for-pwd" href="javascript:;">Forgot your password?</a>
 								</div>
 							</div>
 						</form>
@@ -132,7 +131,7 @@
 	<header class="top-navbar">
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			<div class="container-fluid">
-				<a class="navbar-brand" href="index.html" >
+				<a class="navbar-brand" href="index.php">
 					<h2 style="color: white;">School Musical</h2>
 				</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-host" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
@@ -142,11 +141,10 @@
 				</button>
 				<div class="collapse navbar-collapse" id="navbars-host">
 					<ul class="navbar-nav ml-auto">
-						<li class="nav-item"><a class="nav-link" href="index.html">INICIO</a></li>
-						<li class="nav-item"><a class="nav-link" href="SobreNosotros.html">SOBRE NOSOTROS</a></li>
-						<li class="nav-item active"><a class="nav-link" href="Clases.html">Clases</a></li>
-						<li class="nav-item"><a class="nav-link" href="Empleados.html">EMPLEADOS</a></li>
-						<li class="nav-item"><a class="nav-link" href="Contactos.html">CONTACTO</a></li>
+						<li class="nav-item"><a class="nav-link" href="index.php">INICIO</a></li>
+						<li class="nav-item active"><a class="nav-link" href="SobreNosotros.php">SOBRE NOSOTROS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Clases.php">CLASES</a></li>
+						<li class="nav-item"><a class="nav-link" href="Empleados.php">EMPLEADOS</a></li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
                         <li><a class="hover-btn-new log" href="#" data-toggle="modal" data-target="#login"><span>INICIA SESION</span></a></li>
@@ -159,216 +157,95 @@
 	
 	<div class="all-title-box">
 		<div class="container text-center">
-			<h1>Course Grid 2<span class="m_1">Lorem Ipsum dolroin gravida nibh vel velit.</span></h1>
+			<h1>SobreNosotros<span class="m_1">Lorem Ipsum dolroin gravida nibh vel velit.</span></h1>
 		</div>
 	</div>
 	
-    <div id="overviews" class="section wb">
+    <div id="overviews" class="section lb">
         <div class="container">
             <div class="section-title row text-center">
                 <div class="col-md-8 offset-md-2">
+                    <h3>Acerca de la Escuela</h3>
                     <p class="lead">Lorem Ipsum dolroin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem!</p>
                 </div>
             </div><!-- end title -->
+        
+            <div class="row align-items-center">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="message-box">
+                        <h4>Fue de las mejores escuelas educativas en el 2018</h4>
+                        <h2>Ganadora de un premio por tener uno de los mejores Centros de Soporte</h2>
+                        <p>Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus. Sed a tellus quis mi rhoncus dignissim.</p>
 
-            <hr class="invis"> 
+                        <p> Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis nibh sed tellus faucibus bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis montes, nascetur ridiculus mus. Sed vitae rutrum neque. </p>
 
-            <div class="row"> 
-                <div class="col-lg-6 col-md-6 col-12">
-                    <div class="course-item">
-						<div class="image-blog">
-							<img src="./src/images/naturales.jpg" alt="" class="img-fluid">
-						</div>
-						<div class="course-br">
-							<div class="course-title">
-								<h2><a href="#" title="">Ciencias Naturales</a></h2>
-							</div>
-							<div class="course-desc">
-								<p>Lorem ipsum door sit amet, fugiat deicata avise id cum, no quo maiorum intel ogrets geuiat operts elicata libere avisse id cumlegebat, liber regione eu sit.... </p>
-							</div>
-							<div class="course-rating">
-								4.5
-								<i class="fa fa-star"></i>	
-								<i class="fa fa-star"></i>	
-								<i class="fa fa-star"></i>	
-								<i class="fa fa-star"></i>	
-								<i class="fa fa-star-half"></i>								
-							</div>
-						</div>
-						<div class="course-meta-bot">
-							<ul>
-								<li><i class="fa fa-calendar" aria-hidden="true"></i> 6 Month</li>
-								<li><i class="fa fa-users" aria-hidden="true"></i> 56 Student</li>
-								<li><i class="fa fa-book" aria-hidden="true"></i> 7 Books</li>
-							</ul>
-						</div>
-					</div>
+                        <a href="#" class="hover-btn-new orange"><span>Leer Mas</span></a>
+                    </div><!-- end messagebox -->
                 </div><!-- end col -->
+				
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="post-media wow fadeIn">
+                        <img src="./src/images/about_02.jpg" alt="" class="img-fluid img-rounded">
+                    </div><!-- end media -->
+                </div><!-- end col -->
+			</div>
+			<div class="row align-items-center">
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="post-media wow fadeIn">
+                        <img src="./src/images/about_03.jpg" alt="" class="img-fluid img-rounded">
+                    </div><!-- end media -->
+                </div><!-- end col -->
+				
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="message-box">
+                        <h2>Nuestros horarios de clases son los siguientes:</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-                <div class="col-lg-6 col-md-6 col-12">
-                    <div class="course-item">
-						<div class="image-blog">
-							<img src="./src/images/matematicas.jpg" alt="" class="img-fluid">
-						</div>
-						<div class="course-br">
-							<div class="course-title">
-								<h2><a href="#" title="">Matematicas</a></h2>
-							</div>
-							<div class="blog-desc">
-								<p>Lorem ipsum door sit amet, fugiat deicata avise id cum, no quo maiorum intel ogrets geuiat operts elicata libere avisse id cumlegebat, liber regione eu sit.... </p>
-							</div>
-							<div class="course-rating">
-								4.5
-								<i class="fa fa-star"></i>	
-								<i class="fa fa-star"></i>	
-								<i class="fa fa-star"></i>	
-								<i class="fa fa-star"></i>	
-								<i class="fa fa-star-half"></i>								
-							</div>
-						</div>
-						<div class="course-meta-bot">
-							<ul>
-								<li><i class="fa fa-calendar" aria-hidden="true"></i> 6 Month</li>
-								<li><i class="fa fa-users" aria-hidden="true"></i> 56 Student</li>
-								<li><i class="fa fa-book" aria-hidden="true"></i> 7 Books</li>
-							</ul>
-						</div>
-					</div>
-                </div><!-- end col -->	
-            </div><!-- end row -->
-			
-			<hr class="hr3"> 
-			
-			<div class="row">
-				<div class="col-lg-6 col-md-6 col-12">
-                    <div class="course-item">
-						<div class="image-blog">
-							<img src="./src/images/español.jpg" alt="" class="img-fluid">
-						</div>
-						<div class="course-br">
-							<div class="course-title">
-								<h2><a href="#" title="">Español</a></h2>
-							</div>
-							<div class="course-desc">
-								<p>Lorem ipsum door sit amet, fugiat deicata avise id cum, no quo maiorum intel ogrets geuiat operts elicata libere avisse id cumlegebat, liber regione eu sit.... </p>
-							</div>
-							<div class="course-rating">
-								4.5
-								<i class="fa fa-star"></i>	
-								<i class="fa fa-star"></i>	
-								<i class="fa fa-star"></i>	
-								<i class="fa fa-star"></i>	
-								<i class="fa fa-star-half"></i>								
-							</div>
-						</div>
-						<div class="course-meta-bot">
-							<ul>
-								<li><i class="fa fa-calendar" aria-hidden="true"></i> 6 Month</li>
-								<li><i class="fa fa-users" aria-hidden="true"></i> 56 Student</li>
-								<li><i class="fa fa-book" aria-hidden="true"></i> 7 Books</li>
-							</ul>
-						</div>
-					</div>
-                </div><!-- end col -->
-				<div class="col-lg-6 col-md-6 col-12">
-                   <div class="course-item">
-						<div class="image-blog">
-							<img src="./src/images/sociales.jpg" alt="" class="img-fluid">
-						</div>
-						<div class="course-br">
-							<div class="course-title">
-								<h2><a href="#" title="">Ciencias Sociales</a></h2>
-							</div>
-							<div class="course-desc">
-								<p>Lorem ipsum door sit amet, fugiat deicata avise id cum, no quo maiorum intel ogrets geuiat operts elicata libere avisse id cumlegebat, liber regione eu sit.... </p>
-							</div>
-							<div class="course-rating">
-								4.5
-								<i class="fa fa-star"></i>	
-								<i class="fa fa-star"></i>	
-								<i class="fa fa-star"></i>	
-								<i class="fa fa-star"></i>	
-								<i class="fa fa-star-half"></i>								
-							</div>
-						</div>
-						<div class="course-meta-bot">
-							<ul>
-								<li><i class="fa fa-calendar" aria-hidden="true"></i> 6 Month</li>
-								<li><i class="fa fa-users" aria-hidden="true"></i> 56 Student</li>
-								<li><i class="fa fa-book" aria-hidden="true"></i> 7 Books</li>
-							</ul>
-						</div>
-					</div>
-                </div><!-- end col -->
-			</div><!-- end row -->
-			
-			<hr class="hr3"> 
-			
-            <div class="row"> 
-                <div class="col-lg-6 col-md-6 col-12">
-                    <div class="course-item">
-						<div class="image-blog">
-							<img src="./src/images/ingles.jpg" alt="" class="img-fluid">
-						</div>		
-						<div class="course-br">
-							<div class="course-title">
-								<h2><a href="#" title="">Ingles</a></h2>
-							</div>
-							<div class="course-desc">
-								<p>Lorem ipsum door sit amet, fugiat deicata avise id cum, no quo maiorum intel ogrets geuiat operts elicata libere avisse id cumlegebat, liber regione eu sit.... </p>
-							</div>
-							<div class="course-rating">
-								4.5
-								<i class="fa fa-star"></i>	
-								<i class="fa fa-star"></i>	
-								<i class="fa fa-star"></i>	
-								<i class="fa fa-star"></i>	
-								<i class="fa fa-star-half"></i>								
-							</div>
-						</div>
-						<div class="course-meta-bot">
-							<ul>
-								<li><i class="fa fa-calendar" aria-hidden="true"></i> 6 Month</li>
-								<li><i class="fa fa-users" aria-hidden="true"></i> 56 Student</li>
-								<li><i class="fa fa-book" aria-hidden="true"></i> 7 Books</li>
-							</ul>
-						</div>
-					</div>
-                </div><!-- end col -->
+                        <p> Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis nibh sed tellus faucibus bibendum.</p>
 
-                <div class="col-lg-6 col-md-6 col-12">
-                    <div class="course-item">
-						<div class="image-blog">
-							<img src="./src/images/fisica.jpg" alt="" class="img-fluid">
-						</div>
-						<div class="course-br">
-							<div class="course-title">
-								<h2><a href="#" title="">Fisica</a></h2>
-							</div>
-							<div class="course-desc">
-								<p>Lorem ipsum door sit amet, fugiat deicata avise id cum, no quo maiorum intel ogrets geuiat operts elicata libere avisse id cumlegebat, liber regione eu sit.... </p>
-							</div>	
-							<div class="course-rating">
-								4.5
-								<i class="fa fa-star"></i>	
-								<i class="fa fa-star"></i>	
-								<i class="fa fa-star"></i>	
-								<i class="fa fa-star"></i>	
-								<i class="fa fa-star-half"></i>								
-							</div>
-						</div>
-						<div class="course-meta-bot">
-							<ul>
-								<li><i class="fa fa-calendar" aria-hidden="true"></i> 6 Month</li>
-								<li><i class="fa fa-users" aria-hidden="true"></i> 56 Student</li>
-								<li><i class="fa fa-book" aria-hidden="true"></i> 7 Books</li>
-							</ul>
-						</div>
-					</div>
+                        <a href="#" class="hover-btn-new orange"><span>Leer Mas</span></a>
+                    </div><!-- end messagebox -->
                 </div><!-- end col -->
+				
             </div><!-- end row -->
         </div><!-- end container -->
     </div><!-- end section -->
+	
+	<div class="hmv-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-6 col-12">
+					<div class="inner-hmv">
+						<div class="icon-box-hmv"><i class="flaticon-achievement"></i></div>
+						<h3>Missión</h3>
+						<div class="tr-pa">M</div>
+						<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam eligendi expedita, provident cupiditate in excepturi.</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-12">
+					<div class="inner-hmv">
+						<div class="icon-box-hmv"><i class="flaticon-eye"></i></div>
+						<h3>Visión</h3>
+						<div class="tr-pa">V</div>
+						<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam eligendi expedita, provident cupiditate in excepturi.</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-12">
+					<div class="inner-hmv">
+						<div class="icon-box-hmv"><i class="flaticon-history"></i></div>
+						<h3>Historia</h3>
+						<div class="tr-pa">H</div>
+						<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam eligendi expedita, provident cupiditate in excepturi.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+   
 
     <div class="parallax section dbcolor">
         <div class="container">
@@ -422,11 +299,11 @@
                             <h3>Information Link</h3>
                         </div>
                         <ul class="footer-links">
-                            <li><a href="#">INICIO</a></li>
+                            <li><a href="#">Home</a></li>
                             <li><a href="#">Blog</a></li>
                             <li><a href="#">Pricing</a></li>
-							<li><a href="#">SOBRE NOSOTROS</a></li>
-							<li><a href="#">CONTACTOS</a></li>
+							<li><a href="#">About</a></li>
+							<li><a href="#">Contact</a></li>
                         </ul><!-- end links -->
                     </div><!-- end clearfix -->
                 </div><!-- end col -->
