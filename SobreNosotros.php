@@ -71,9 +71,9 @@
 							<div class="row">
 								<div class="col-sm-10">
 									<button type="submit" class="btn btn-light btn-radius btn-brd grd1">
-										Submit
+										Aceptar
 									</button>
-									<a class="for-pwd" href="javascript:;">Forgot your password?</a>
+									<a class="for-pwd" href="javascript:;">Recupera tu contraseña</a>
 								</div>
 							</div>
 						</form>
@@ -87,26 +87,26 @@
 							</div>
 							<div class="form-group">
 								<div class="col-sm-12">
-									<input class="form-control" id="email" placeholder="Email" type="email">
+									<input class="form-control" id="email" placeholder="Correo" type="email">
 								</div>
 							</div>
 							<div class="form-group">
 								<div class="col-sm-12">
-									<input class="form-control" id="mobile" placeholder="Mobile" type="email">
+									<input class="form-control" id="mobile" placeholder="Teléfono" type="email">
 								</div>
 							</div>
 							<div class="form-group">
 								<div class="col-sm-12">
-									<input class="form-control" id="password" placeholder="Password" type="password">
+									<input class="form-control" id="password" placeholder="Contraseña" type="password">
 								</div>
 							</div>
 							<div class="row">							
 								<div class="col-sm-10">
 									<button type="button" class="btn btn-light btn-radius btn-brd grd1">
-										Save &amp; Continue
+										Guardar &amp; Continuar
 									</button>
 									<button type="button" class="btn btn-light btn-radius btn-brd grd1">
-										Cancel</button>
+										Cancelar</button>
 								</div>
 							</div>
 						</form>
