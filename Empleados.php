@@ -117,15 +117,6 @@
 	  </div>
 	</div>
 
-    <!-- LOADER -->
-	<div id="preloader">
-		<div class="loader-container">
-			<div class="progress-br float shadow">
-				<div class="progress__item"></div>
-			</div>
-		</div>
-	</div>
-	<!-- END LOADER -->	
 
     <!-- Start header -->
 	<header class="top-navbar">
@@ -144,7 +135,7 @@
 						<li class="nav-item"><a class="nav-link" href="index.php">INICIO</a></li>
 						<li class="nav-item"><a class="nav-link" href="SobreNosotros.php">SOBRE NOSOTROS</a></li>
 						<li class="nav-item"><a class="nav-link" href="Clases.php">CLASES</a></li>
-						<li class="nav-item active"><a class="nav-link" href="Empleados.php">EMPLEADOS</a></li>
+						<li class="nav-item active"><a class="nav-link" href="Empleados.php">MAESTROS</a></li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
                         <li><a class="hover-btn-new log" href="#" data-toggle="modal" data-target="#login"><span>INICIA SESION</span></a></li>
@@ -157,7 +148,7 @@
 	
 	<div class="all-title-box">
 		<div class="container text-center">
-			<h1>Teachers<span class="m_1">Lorem Ipsum dolroin gravida nibh vel velit.</span></h1>
+			<h1 style="color: black;">Maestros<span class="m_1">"La educación es lo que sobrevive cuando lo que se ha aprendido ya se ha olvidado."</span></h1>
 		</div>
 	</div>
 	
@@ -167,19 +158,11 @@
 				<div class="col-lg-3 col-md-6 col-12">
 					<div class="our-team">
 						<div class="team-img">
-							<img src="./src/images/team-01.png">
-							<div class="social">
-								<ul>
-									<li><a href="#" class="fa fa-facebook"></a></li>
-									<li><a href="#" class="fa fa-twitter"></a></li>
-									<li><a href="#" class="fa fa-linkedin"></a></li>
-									<li><a href="#" class="fa fa-skype"></a></li>
-								</ul>
-							</div>
+							<img src="./src/images/author.jpg">
 						</div>
 						<div class="team-content">
-							<h3 class="title">Williamson</h3>
-							<span class="post">Web Developer</span>
+							<h3 class="title">Keyti Diaz</h3>
+							<span class="post">Ciencias Sociales</span>
 						</div>
 					</div>
 				</div>
@@ -187,19 +170,11 @@
 				<div class="col-lg-3 col-md-6 col-12">
 					<div class="our-team">
 						<div class="team-img">
-							<img src="./src/images/team-02.png">
-							<div class="social">
-								<ul>
-									<li><a href="#" class="fa fa-facebook"></a></li>
-									<li><a href="#" class="fa fa-twitter"></a></li>
-									<li><a href="#" class="fa fa-linkedin"></a></li>
-									<li><a href="#" class="fa fa-skype"></a></li>
-								</ul>
-							</div>
+							<img src="./src/images/avatar-01.jpg">
 						</div>
 						<div class="team-content">
-							<h3 class="title">Kristiana</h3>
-							<span class="post">Web Designer</span>
+							<h3 class="title">Ramon Ordoñez</h3>
+							<span class="post">Matematicas</span>
 						</div>
 					</div>
 				</div>
@@ -207,19 +182,11 @@
 				<div class="col-lg-3 col-md-6 col-12">
 					<div class="our-team">
 						<div class="team-img">
-							<img src="./src/images/team-03.png">
-							<div class="social">
-								<ul>
-									<li><a href="#" class="fa fa-facebook"></a></li>
-									<li><a href="#" class="fa fa-twitter"></a></li>
-									<li><a href="#" class="fa fa-linkedin"></a></li>
-									<li><a href="#" class="fa fa-skype"></a></li>
-								</ul>
-							</div>
+							<img src="./src/images/avatar-02.jpg">
 						</div>
 						<div class="team-content">
-							<h3 class="title">Steve Thomas</h3>
-							<span class="post">Web Developer</span>
+							<h3 class="title">Maria Castillo</h3>
+							<span class="post">Ingles</span>
 						</div>
 					</div>
 				</div>
@@ -227,19 +194,11 @@
 				<div class="col-lg-3 col-md-6 col-12">
 					<div class="our-team">
 						<div class="team-img">
-							<img src="./src/images/team-04.png">
-							<div class="social">
-								<ul>
-									<li><a href="#" class="fa fa-facebook"></a></li>
-									<li><a href="#" class="fa fa-twitter"></a></li>
-									<li><a href="#" class="fa fa-linkedin"></a></li>
-									<li><a href="#" class="fa fa-skype"></a></li>
-								</ul>
-							</div>
+							<img src="./src/images/avatar-03.jpg">
 						</div>
 						<div class="team-content">
-							<h3 class="title">Miranda joy</h3>
-							<span class="post">Web Developer</span>
+							<h3 class="title">Johana Savillon</h3>
+							<span class="post">Español</span>
 						</div>
 					</div>
 				</div>
@@ -247,19 +206,11 @@
 				<div class="col-lg-3 col-md-6 col-12">
 					<div class="our-team">
 						<div class="team-img">
-							<img src="./src/images/team-01.png">
-							<div class="social">
-								<ul>
-									<li><a href="#" class="fa fa-facebook"></a></li>
-									<li><a href="#" class="fa fa-twitter"></a></li>
-									<li><a href="#" class="fa fa-linkedin"></a></li>
-									<li><a href="#" class="fa fa-skype"></a></li>
-								</ul>
-							</div>
+							<img src="./src/images/avatar-04.jpg">
 						</div>
 						<div class="team-content">
-							<h3 class="title">Williamson</h3>
-							<span class="post">Web Developer</span>
+							<h3 class="title">William mendez</h3>
+							<span class="post">Educación fisica</span>
 						</div>
 					</div>
 				</div>
@@ -267,19 +218,11 @@
 				<div class="col-lg-3 col-md-6 col-12">
 					<div class="our-team">
 						<div class="team-img">
-							<img src="./src/images/team-02.png">
-							<div class="social">
-								<ul>
-									<li><a href="#" class="fa fa-facebook"></a></li>
-									<li><a href="#" class="fa fa-twitter"></a></li>
-									<li><a href="#" class="fa fa-linkedin"></a></li>
-									<li><a href="#" class="fa fa-skype"></a></li>
-								</ul>
-							</div>
+							<img src="./src/images/avatar-05.jpg">
 						</div>
 						<div class="team-content">
-							<h3 class="title">Kristiana</h3>
-							<span class="post">Web Designer</span>
+							<h3 class="title">Marcos Valladares</h3>
+							<span class="post">Musica</span>
 						</div>
 					</div>
 				</div>
@@ -287,19 +230,11 @@
 				<div class="col-lg-3 col-md-6 col-12">
 					<div class="our-team">
 						<div class="team-img">
-							<img src="./src/images/team-03.png">
-							<div class="social">
-								<ul>
-									<li><a href="#" class="fa fa-facebook"></a></li>
-									<li><a href="#" class="fa fa-twitter"></a></li>
-									<li><a href="#" class="fa fa-linkedin"></a></li>
-									<li><a href="#" class="fa fa-skype"></a></li>
-								</ul>
-							</div>
+							<img src="./src/images/avatar-06.jpg">
 						</div>
 						<div class="team-content">
-							<h3 class="title">Steve Thomas</h3>
-							<span class="post">Web Developer</span>
+							<h3 class="title">Pedro Ramos</h3>
+							<span class="post">Computación</span>
 						</div>
 					</div>
 				</div>
@@ -307,19 +242,11 @@
 				<div class="col-lg-3 col-md-6 col-12">
 					<div class="our-team">
 						<div class="team-img">
-							<img src="./src/images/team-04.png">
-							<div class="social">
-								<ul>
-									<li><a href="#" class="fa fa-facebook"></a></li>
-									<li><a href="#" class="fa fa-twitter"></a></li>
-									<li><a href="#" class="fa fa-linkedin"></a></li>
-									<li><a href="#" class="fa fa-skype"></a></li>
-								</ul>
-							</div>
+							<img src="./src/images/avatar-07.jpg">
 						</div>
 						<div class="team-content">
-							<h3 class="title">Miranda joy</h3>
-							<span class="post">Web Developer</span>
+							<h3 class="title">Miranda Lopez</h3>
+							<span class="post">Ciencias Naturales</span>
 						</div>
 					</div>
 				</div>
@@ -327,121 +254,8 @@
         </div><!-- end container -->
     </div><!-- end section -->	
 
-    <div id="testimonials" class="parallax section db parallax-off" style="background-image:url('./src/images/parallax_04.jpg');">
-        <div class="container">
-            <div class="section-title text-center">
-                <h3>Testimonials</h3>
-                <p>Lorem ipsum dolor sit aet, consectetur adipisicing lit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-            </div><!-- end title -->
 
-            <div class="row">
-                <div class="col-md-12 col-sm-12">
-                    <div class="testi-carousel owl-carousel owl-theme">
-                        <div class="testimonial clearfix">
-							<div class="testi-meta">
-                                <img src="./src/images/testi_01.png" alt="" class="img-fluid">
-                                <h4>James Fernando </h4>
-                            </div>
-                            <div class="desc">
-                                <h3><i class="fa fa-quote-left"></i> Wonderful Support!</h3>
-                                <p class="lead">They have got my project on time with the competition with a sed highly skilled, and experienced & professional team.</p>
-                            </div>
-                            <!-- end testi-meta -->
-                        </div>
-                        <!-- end testimonial -->
 
-                        <div class="testimonial clearfix">
-							<div class="testi-meta">
-                                <img src="./src/images/testi_02.png" alt="" class="img-fluid">
-                                <h4>Jacques Philips </h4>
-                            </div>
-                            <div class="desc">
-                                <h3><i class="fa fa-quote-left"></i> Awesome Services!</h3>
-                                <p class="lead">Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you completed.</p>
-                            </div>
-                            <!-- end testi-meta -->
-                        </div>
-                        <!-- end testimonial -->
-
-                        <div class="testimonial clearfix">
-							<div class="testi-meta">
-                                <img src="./src/images/testi_03.png" alt="" class="img-fluid ">
-                                <h4>Venanda Mercy </h4>
-                            </div>
-                            <div class="desc">
-                                <h3><i class="fa fa-quote-left"></i> Great & Talented Team!</h3>
-                                <p class="lead">The master-builder of human happines no one rejects, dislikes avoids pleasure itself, because it is very pursue pleasure. </p>
-                            </div>
-                            <!-- end testi-meta -->
-                        </div>
-                        <!-- end testimonial -->
-                        <div class="testimonial clearfix">
-							<div class="testi-meta">
-                                <img src="./src/images/testi_01.png" alt="" class="img-fluid">
-                                <h4>James Fernando </h4>
-                            </div>
-                            <div class="desc">
-                                <h3><i class="fa fa-quote-left"></i> Wonderful Support!</h3>
-                                <p class="lead">They have got my project on time with the competition with a sed highly skilled, and experienced & professional team.</p>
-                            </div>
-                            <!-- end testi-meta -->
-                        </div>
-                        <!-- end testimonial -->
-
-                        <div class="testimonial clearfix">
-							<div class="testi-meta">
-                                <img src="./src/images/testi_02.png" alt="" class="img-fluid">
-                                <h4>Jacques Philips </h4>
-                            </div>
-                            <div class="desc">
-                                <h3><i class="fa fa-quote-left"></i> Awesome Services!</h3>
-                                <p class="lead">Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you completed.</p>
-                            </div>
-                            <!-- end testi-meta -->
-                        </div>
-                        <!-- end testimonial -->
-
-                        <div class="testimonial clearfix">
-							<div class="testi-meta">
-                                <img src="./src/images/testi_03.png" alt="" class="img-fluid">
-                                <h4>Venanda Mercy </h4>
-                            </div>
-                            <div class="desc">
-                                <h3><i class="fa fa-quote-left"></i> Great & Talented Team!</h3>
-                                <p class="lead">The master-builder of human happines no one rejects, dislikes avoids pleasure itself, because it is very pursue pleasure. </p>
-                            </div>
-                            <!-- end testi-meta -->
-                        </div><!-- end testimonial -->
-                    </div><!-- end carousel -->
-                </div><!-- end col -->
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </div><!-- end section -->
-
-    <div class="parallax section dbcolor">
-        <div class="container">
-            <div class="row logos">
-                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
-                    <a href="#"><img src="./src/images/logo_01.png" alt="" class="img-repsonsive"></a>
-                </div>
-                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
-                    <a href="#"><img src="./src/images/logo_02.png" alt="" class="img-repsonsive"></a>
-                </div>
-                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
-                    <a href="#"><img src="./src/images/logo_03.png" alt="" class="img-repsonsive"></a>
-                </div>
-                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
-                    <a href="#"><img src="./src/images/logo_04.png" alt="" class="img-repsonsive"></a>
-                </div>
-                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
-                    <a href="#"><img src="./src/images/logo_05.png" alt="" class="img-repsonsive"></a>
-                </div>
-                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
-                    <a href="#"><img src="./src/images/logo_06.png" alt="" class="img-repsonsive"></a>
-                </div>
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </div><!-- end section -->
 
     <footer class="footer">
         <div class="container">
@@ -449,32 +263,22 @@
                 <div class="col-lg-4 col-md-4 col-xs-12">
                     <div class="widget clearfix">
                         <div class="widget-title">
-                            <h3>About US</h3>
+                            <h3>Sobre Nosotros</h3>
                         </div>
                         <p> Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis nibh sed tellus faucibus bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis dis montes.</p>
-                        <div class="footer-right">
-							<ul class="footer-links-soi">
-								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#"><i class="fa fa-github"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-								<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-							</ul><!-- end links -->
-						</div>
                     </div><!-- end clearfix -->
                 </div><!-- end col -->
 
 				<div class="col-lg-4 col-md-4 col-xs-12">
                     <div class="widget clearfix">
                         <div class="widget-title">
-                            <h3>Information Link</h3>
+                            <h3>Enlaces de Informacion</h3>
                         </div>
                         <ul class="footer-links">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Pricing</a></li>
-							<li><a href="#">About</a></li>
-							<li><a href="#">Contact</a></li>
+                            <li><a href="index.php">Inicio</a></li>
+                            <li><a href="SobreNosotros.php">Sobre Nosotros</a></li>
+                            <li><a href="Clases.php">Clases</a></li>
+							<li><a href="Empleados.php">Maestros</a></li>
                         </ul><!-- end links -->
                     </div><!-- end clearfix -->
                 </div><!-- end col -->
@@ -482,7 +286,7 @@
                 <div class="col-lg-4 col-md-4 col-xs-12">
                     <div class="widget clearfix">
                         <div class="widget-title">
-                            <h3>Contact Details</h3>
+                            <h3>Detalles de Contacto</h3>
                         </div>
 
                         <ul class="footer-links">
@@ -502,7 +306,7 @@
         <div class="container">
             <div class="footer-distributed">
                 <div class="footer-center">                   
-                    <p class="footer-company-name">All Rights Reserved. &copy; 2018 <a href="#">SmartEDU</a> Design By : <a href="https://html.design/">html design</a></p>
+                    <p class="footer-company-name">All Rights Reserved. &copy; 2022 Design By : Grupo 4 Desarrollo de Portales Web 2</p>
                 </div>
             </div>
         </div><!-- end container -->
