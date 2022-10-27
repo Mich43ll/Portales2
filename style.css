@@ -2766,7 +2766,7 @@ select.mobile-device {
     margin: 0;
     font-weight: 300;
     padding: 4px 0 0;
-    line-height: 1 !important:
+    line-height: 1 !important;
 }
 
 #preloader {
@@ -2855,7 +2855,7 @@ body.host_version .first-section .effect-1.slide-btn::after{
 }
 
 .all-title-box h1{
-	color: #fff;
+	color: #efefef;
 	font-weight: 600;
 	text-transform: capitalize;
 	padding-top: 11%;
