@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
  
      <!-- Site Metas -->
-    <title>SmartEDU - Education Responsive HTML5 Template</title>  
+    <title>School Musical</title>  
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -46,13 +46,13 @@
 		<div class="modal-content">
 			<div class="modal-header tit-up">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				<h4 class="modal-title">Inicio de Sesión de Usuarios</h4>
+				<h4 class="modal-title">Inicio de sesión para usuarios</h4>
 			</div>
 			<div class="modal-body customer-box">
 				<!-- Nav tabs -->
 				<ul class="nav nav-tabs">
-					<li><a class="active" href="#Login" data-toggle="tab">Inicia Sesión</a></li>
-					<li><a href="#Registration" data-toggle="tab">Registration</a></li>
+					<li><a class="active" href="#Login" data-toggle="tab">Inicia sesión</a></li>
+					<li><a href="#Registration" data-toggle="tab">Registrate</a></li>
 				</ul>
 				<!-- Tab panes -->
 				<div class="tab-content">
@@ -60,20 +60,20 @@
 						<form role="form" class="form-horizontal">
 							<div class="form-group">
 								<div class="col-sm-12">
-									<input class="form-control" id="email1" placeholder="Name" type="text">
+									<input class="form-control" id="email1" placeholder="Nombre" type="text">
 								</div>
 							</div>
 							<div class="form-group">
 								<div class="col-sm-12">
-									<input class="form-control" id="exampleInputPassword1" placeholder="Email" type="email">
+									<input class="form-control" id="exampleInputPassword1" placeholder="Correo" type="email">
 								</div>
 							</div>
 							<div class="row">
 								<div class="col-sm-10">
 									<button type="submit" class="btn btn-light btn-radius btn-brd grd1">
-										Submit
+										Aceptar
 									</button>
-									<a class="for-pwd" href="javascript:;">Forgot your password?</a>
+									<a class="for-pwd" href="javascript:;">Recupera tu contraseña</a>
 								</div>
 							</div>
 						</form>
@@ -82,31 +82,31 @@
 						<form role="form" class="form-horizontal">
 							<div class="form-group">
 								<div class="col-sm-12">
-									<input class="form-control" placeholder="Name" type="text">
+									<input class="form-control" placeholder="Nombre" type="text">
 								</div>
 							</div>
 							<div class="form-group">
 								<div class="col-sm-12">
-									<input class="form-control" id="email" placeholder="Email" type="email">
+									<input class="form-control" id="email" placeholder="Correo" type="email">
 								</div>
 							</div>
 							<div class="form-group">
 								<div class="col-sm-12">
-									<input class="form-control" id="mobile" placeholder="Mobile" type="email">
+									<input class="form-control" id="mobile" placeholder="Teléfono" type="email">
 								</div>
 							</div>
 							<div class="form-group">
 								<div class="col-sm-12">
-									<input class="form-control" id="password" placeholder="Password" type="password">
+									<input class="form-control" id="password" placeholder="Contraseña" type="password">
 								</div>
 							</div>
 							<div class="row">							
 								<div class="col-sm-10">
 									<button type="button" class="btn btn-light btn-radius btn-brd grd1">
-										Save &amp; Continue
+										Guardar &amp; Continuar
 									</button>
 									<button type="button" class="btn btn-light btn-radius btn-brd grd1">
-										Cancel</button>
+										Cancelar</button>
 								</div>
 							</div>
 						</form>
@@ -219,8 +219,7 @@
 						<div class="icon-box-hmv"><i class="flaticon-achievement"></i></div>
 						<h3>Missión</h3>
 						<div class="tr-pa">M</div>
-						<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam eligendi expedita, provident cupiditate in excepturi.</p>
+						<p>Promover la formación integral del alumno, en las diferentes etapas de crecimiento, poniendo a su alcance una educación de alta calidad, a través del desarrollo de habilidades y competencias, que lo preparen para ser un líder productivo de la sociedad.</p>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6 col-12">
@@ -228,8 +227,7 @@
 						<div class="icon-box-hmv"><i class="flaticon-eye"></i></div>
 						<h3>Visión</h3>
 						<div class="tr-pa">V</div>
-						<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam eligendi expedita, provident cupiditate in excepturi.</p>
+						<p>Ser una institución comprometida con la excelencia y el desarrollo potencial de sus alumnos a través de su oferta de servicios y programas educativos.</p>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6 col-12">
@@ -244,34 +242,6 @@
 			</div>
 		</div>
 	</div>
-
-   
-
-    <div class="parallax section dbcolor">
-        <div class="container">
-            <div class="row logos">
-                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
-                    <a href="#"><img src="./src/images/logo_01.png" alt="" class="img-repsonsive"></a>
-                </div>
-                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
-                    <a href="#"><img src="./src/images/logo_02.png" alt="" class="img-repsonsive"></a>
-                </div>
-                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
-                    <a href="#"><img src="./src/images/logo_03.png" alt="" class="img-repsonsive"></a>
-                </div>
-                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
-                    <a href="#"><img src="./src/images/logo_04.png" alt="" class="img-repsonsive"></a>
-                </div>
-                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
-                    <a href="#"><img src="./src/images/logo_05.png" alt="" class="img-repsonsive"></a>
-                </div>
-                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
-                    <a href="#"><img src="./src/images/logo_06.png" alt="" class="img-repsonsive"></a>
-                </div>
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </div><!-- end section -->
-
     <footer class="footer">
         <div class="container">
             <div class="row">
@@ -281,15 +251,6 @@
                             <h3>About US</h3>
                         </div>
                         <p> Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis nibh sed tellus faucibus bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis dis montes.</p>
-                        <div class="footer-right">
-							<ul class="footer-links-soi">
-								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#"><i class="fa fa-github"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-								<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-							</ul><!-- end links -->
-						</div>
                     </div><!-- end clearfix -->
                 </div><!-- end col -->
 
