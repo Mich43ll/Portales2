@@ -18,7 +18,7 @@ require_once "src/vistas/header.php";
 							<img src="./src/images/author.jpg">
 						</div>
 						<div class="team-content">
-							<h3 class="title">Keyti Diaz</h3>
+							<h3 class="title">Karina Sauceda</h3>
 							<span class="post">Ciencias Sociales</span>
 						</div>
 					</div>
