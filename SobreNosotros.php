@@ -82,7 +82,7 @@
 						<form role="form" class="form-horizontal">
 							<div class="form-group">
 								<div class="col-sm-12">
-									<input class="form-control" placeholder="Name" type="text">
+									<input class="form-control" placeholder="Nombre" type="text">
 								</div>
 							</div>
 							<div class="form-group">
@@ -219,8 +219,7 @@
 						<div class="icon-box-hmv"><i class="flaticon-achievement"></i></div>
 						<h3>Missión</h3>
 						<div class="tr-pa">M</div>
-						<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam eligendi expedita, provident cupiditate in excepturi.</p>
+						<p>Promover la formación integral del alumno, en las diferentes etapas de crecimiento, poniendo a su alcance una educación de alta calidad, a través del desarrollo de habilidades y competencias, que lo preparen para ser un líder productivo de la sociedad.</p>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6 col-12">
@@ -228,8 +227,7 @@
 						<div class="icon-box-hmv"><i class="flaticon-eye"></i></div>
 						<h3>Visión</h3>
 						<div class="tr-pa">V</div>
-						<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam eligendi expedita, provident cupiditate in excepturi.</p>
+						<p>Ser una institución comprometida con la excelencia y el desarrollo potencial de sus alumnos a través de su oferta de servicios y programas educativos.</p>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6 col-12">
