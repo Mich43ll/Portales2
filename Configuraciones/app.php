@@ -3,14 +3,14 @@
         function __construct(){
             $url = $_GET['url'];
             if(empty($url)){
-                require_once('controladores/inicio.php');
+                require_once('Controladores/inicio.php');
                 $controlador = new inicio();
                 $controlador ->inicio();     
             }
             else{
                 $url = rtrim($url,'/');
                 $url = explode('/',$url);
-                $archivoControlador = 'controladores/'.$url[0].'.php';
+                $archivoControlador = 'Controladores/'.$url[0].'.php';
                 if(file_exists($archivoControlador)){
                     require_once $archivoControlador;
                     $controlador = new $url[0];
