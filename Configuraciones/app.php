@@ -1,9 +1,7 @@
 <?php
     class App{
         function __construct(){
-            //echo "<h1>Portales 2</h1>";
             $url = $_GET['url'];
-            //var_dump($url);
             if(empty($url)){
                 require_once('controladores/inicio.php');
                 $controlador = new inicio();
